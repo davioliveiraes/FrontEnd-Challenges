@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Manrope:wght@700&display=swap');
+
+* {
+
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+body {
+
+    background-color: #e6e6fa;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+
+.container-form {
+
+    background-color: #a73824;
+    border-radius: 10px;
+    max-width: 720px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 14px;
+    margin-top: 2px;
+
+}
+
+.img-form {
+
+    margin-top: 15px;
+    max-width: 240px;
+
+}
+
+h1 {
+
+    font-family: 'Comfortaa', cursive;
+    font-size: 40px;
+
+}
+
+h3 {
+
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+h4 {
+
+    font-family: 'Manrope', sans-serif;
+    font-size: 15px;
+    margin-top: 20px;
+
+}
+
+label {
+
+    font-family: 'Manrope', sans-serif;
+    font-size: 25px;
+
+}
+
+.input-peso {
+
+    width: 50%;
+    height: 35px;
+    border-radius: 4px;
+    font-size: 20px;
+    padding: 0 14px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    border: 2px black solid;
+
+}
+
+.input-altura {
+
+    width: 50%;
+    height: 35px;
+    border-radius: 4px;
+    font-size: 20px;
+    padding: 0 14px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    border: 2px black solid;
+
+}
+
+#button-calcular {
+
+    margin-bottom: 15px;
+    background-color: rgb(165, 27, 27);
+    color: rgb(221, 117, 117);
+    font-size: 24px;
+    padding: 16px 36px;
+    border: 2px #8B0000 solid;
+    border-radius: 20px;
+    transition: all .5s;
+
+
+}
+
+#button-calcular:hover {
+
+    background: transparent;
+    color: #8B0000;
+    all: brightness(1.2);
+    cursor: pointer;
+
+}
+
+.result {
+
+    background-color: rgb(124, 22, 22);
+    color: white;
+    font-family: 'Manrope', sans-serif;
+    font-size: 20px;
+    max-width: 500px;
+    padding: 20px 28px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    user-select: none;
+    transition: transform 0.8s
+}
+
+.hide {
+
+    display: none;
+
+}
+
+.result:hover {
+
+    transform: scale(1.1);
+
+}
+
+.infor-ajuda {
+
+    position: fixed;
+    right: 14px;
+    bottom: 22px;
+
+}
+
+.texto-ajuda {
+
+    color: white;
+    background-color: black;
+    padding: 10px 8px;
+    border-radius: 6px;
+    position: relative;
+    bottom: 28px;
+    display: none;
+
+}
+
+.infor-ajuda:hover .texto-ajuda {
+
+    display: inline;
+
+}
+
+.iconeInfor {
+
+    max-width: 100px;
+    height: 80px;
+
+}
+
+
+.container-principal {
+
+    background-color: #a73824;
+    border-radius: 10px;
+    max-width: 720px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 14px;
+    margin-top: 2px;
+
+}
+
+.infor-sobre {
+
+    max-width: 620px;
+    margin-bottom: 10px;
+    line-height: 120%;
+
+}
+
+.infor-sobre li {
+
+    font-weight: bold;
+    margin-bottom: 10px;
+    line-height: 120%;
+
+}
+
+#titulo-infor {
+
+    font-family: 'Comfortaa', cursive;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+#img-duvida {
+
+    max-width: 500px;
+    height: 200px;
+    margin-top: 8px;
+    margin-right: 50px;
+
+}
+
+#img-imc {
+
+    max-width: 500px;
+    height: 170px;
+
+}
+
+.button-infor {
+
+    margin-bottom: 15px;
+    background-color: rgb(165, 27, 27);
+    color: rgb(221, 117, 117);
+    font-size: 30px;
+    padding: 16px 36px;
+    border: 2px #8B0000 solid;
+    border-radius: 20px;
+    transition: all .5s;
+    text-decoration: none;
+
+}
+
+.button-infor:hover {
+
+    background: transparent;
+    color: #8B0000;
+    all: brightness(1.2);
+    cursor: pointer;
+
+}

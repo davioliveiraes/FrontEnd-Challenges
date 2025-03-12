@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywolds" content="Site para calcular o imc de uma pessoa">
+    <title>IMC - DESCUBRA SEU IMC</title>
+    <link rel="Stylesheet" type="text/css" href="Style.css">
+    <link rel="icon" href="Imagens/icon.png" type="ima/icone">
+</head>
+
+<body>
+    <form class="container-form">
+        <img class="img-form" src="Imagens/LogoIMC.png" alt="Logo do IMC">
+        <br>
+        <h1>IMC - Índice de Massa Corporal</h1>
+        <h3>Descubra e veja a situação de seu corpo físico</h3>
+        <br>
+        <h4>Preencha abaixo: </h4>
+        <br>
+        <label>Digite seu peso(KG):</label>
+        <br>
+        <input type="text" name="peso" id="peso" class="input-peso" placeholder="Ex: 65" required>
+        <br>
+        <label>Digite sua altura(M):</label>
+        <br>
+        <input type="text" name="altura" id="altura" class="input-altura" placeholder="Ex: 1.70" required>
+        <br>
+        <button type="submit" id="button-calcular" onclick="calcularIMC(event)">CALCULAR IMC</button>
+    </form>
+
+    <section id="resultado" class="result hide">
+
+    </section>
+
+    <div class="infor-ajuda">
+
+        <span class="texto-ajuda">Veja como é feito o cálculo!</span>
+        <a href="Infor.html"><img class="iconeInfor" src="Imagens/iconInfor.png" alt="Icone de informações"></a>
+
+    </div>
+
+    <script src="Script.js"></script>
+</body>
+
+</html>
