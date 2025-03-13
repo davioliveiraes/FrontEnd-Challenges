@@ -8,7 +8,6 @@
 <br>
 
 <p align="center">
-  IMAGEM
   <img alt="previewContatosDaviOliveira" src="./github/preview-contatosDaviOliveira.png" width="100%">
 </p>
 
